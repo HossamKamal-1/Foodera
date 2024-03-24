@@ -1,0 +1,71 @@
+header .nav-link,
+.offcanvas .nav-link {
+  --bs-nav-link-color: var(--main-color) !important;
+}
+[data-bs-theme='dark'] header {
+  background-color: #13181c !important;
+}
+[data-bs-theme='dark'] header .nav-link,
+[data-bs-theme='dark'] .offcanvas .nav-link {
+  --bs-nav-link-color: white !important;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) var(--main-color);
+}
+.brand-image {
+  max-height: 70px;
+}
+
+/* Start Dark Mode Toggler */
+.dark-mode-label {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.moon-icon,
+.sun-icon {
+  font-size: 2em;
+}
+.moon-icon {
+  color: white;
+  filter: drop-shadow(3px 0px 5px rgba(255, 255, 255, 0.6));
+  transition: 0.5s ease;
+}
+
+#darkmodeCheck:checked ~ .moon-icon {
+  transform: rotate(360deg) scale(0);
+}
+.sun-icon {
+  position: absolute;
+  color: #f76400;
+  filter: drop-shadow(0px 0px 5px rgba(96.9, 39.2, 0, 0.6));
+  transition: 0.5s ease;
+  transform: scale(0);
+}
+#darkmodeCheck:checked ~ .sun-icon {
+  transition-delay: 0.3s;
+  transform: scale(1) rotate(360deg);
+}
+.toggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--main-dark-color);
+  border-radius: 50%;
+  box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+    inset 0 8px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+  z-index: -1;
+  transition: 0.3s ease-in;
+}
+#darkmodeCheck:checked ~ .toggle {
+  transition-delay: 0.3s;
+  background-color: white;
+}
+/* End Dark Mode Toggler */

@@ -1,0 +1,8 @@
+.features-list {
+  width: fit-content;
+}
+
+.feature-icon {
+  transform: translateY(-50%);
+  color: var(--main-color);
+}

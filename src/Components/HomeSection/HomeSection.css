@@ -1,0 +1,19 @@
+.home {
+  height: calc(100vh - 96px);
+  background-image: url(../../images/3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+[data-bs-theme=dark] .home {
+  background-color: var(--main-dark-color) !important;
+}
+.home-intro {
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home-intro .intro-heading {
+  color: #43121d !important;
+}

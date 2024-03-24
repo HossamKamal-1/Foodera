@@ -1,0 +1,14 @@
+.explore {
+  padding: 100px 0;
+}
+[data-bs-theme='dark'] .explore .card,
+[data-bs-theme='dark'] .explore .card-footer {
+  --bs-card-bg: #131f2b !important;
+}
+
+.explore .card .explore-intro {
+  max-width: 960px;
+}
+.explore .current-price {
+  color: var(--main-color);
+}

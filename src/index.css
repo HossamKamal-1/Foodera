@@ -1,13 +1,40 @@
+/* Start Variables */
+[data-bs-theme='dark'] {
+  --bs-body-bg: var(--main-dark-color);
+}
+:root {
+  --bs-primary-rgb: 168, 45, 73;
+  --main-color: #a82d49;
+  --main-dark-color: #343a40;
+  --main-color-disabled: #a82d4a95;
+}
+/* End Variables */
+
+/* Fonts */
+@font-face {
+  font-family: Roboto;
+  src: url('../public/fonts/Roboto-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('../public/fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('../public/fonts/Roboto-Medium.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url('../public/fonts/Roboto-Bold.ttf');
+  font-weight: bold;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

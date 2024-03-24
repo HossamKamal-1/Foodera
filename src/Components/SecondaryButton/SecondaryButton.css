@@ -1,0 +1,26 @@
+.secondary-btn {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #fff;
+  --bs-btn-hover-color: var(--main-color);
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: var(--main-color);
+  --bs-btn-focus-shadow-rgb: var(--main-color);
+  --bs-btn-active-color: var(--main-color);
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: var(--main-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--main-color-disabled);
+  --bs-btn-disabled-border-color: var(--main-color-disabled);
+  --bs-btn-border-width: 3px;
+  --bs-btn-padding-x: 1.5rem;
+}
+[data-bs-theme=dark] .secondary-btn {
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: var(--main-dark-color);
+  --bs-btn-active-border-color: var(--main-dark-color);
+  --bs-btn-hover-border-color: var(--main-dark-color);
+
+
+}

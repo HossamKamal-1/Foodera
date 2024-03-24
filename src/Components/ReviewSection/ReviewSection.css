@@ -1,0 +1,43 @@
+.review {
+  padding-bottom: calc(48px + 36px) !important;
+}
+.carousel-wrapper {
+  max-width: 80%;
+}
+.review-item {
+  min-height: 345.56px;
+}
+@media (max-width: 567px) {
+  .review-item {
+    min-height: 420px;
+  }
+}
+.carousel-inner {
+  border-radius: 0.5rem;
+}
+.carousel-indicators {
+  margin-bottom: -3rem;
+}
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+  border: 0 !important;
+}
+.review-item q {
+  max-width: 500px;
+}
+.testimonial-review-img {
+  max-width: 70px;
+}
+/* Start Dark Mode */
+[data-bs-theme='dark'] .review {
+  background-color: #192c36 !important;
+}
+[data-bs-theme='dark'] .review-item {
+  background-color: var(--main-dark-color) !important;
+}
+[data-bs-theme='dark'] .review-item q {
+  color: white !important;
+}
+/* End Dark Mode */
