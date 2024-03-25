@@ -39,7 +39,7 @@ https://github.com/HossamKamal-1/Foodera/blob/main/package.json
 - Light/Dark Mode.
 
 ## Prerequisites
-This project uses NPM as a package manager NodeJs Download Link: https://nodejs.org/en/download`
+This project uses NPM as a package manager NodeJs Download Link: https://nodejs.org/en/download
 
 ## Run Locally
 
@@ -87,7 +87,7 @@ npm run build
 
 Netlify Demo:
 
-https://651ee8e2ae1bac00a1eb7442--willowy-hotteok-e2facf.netlify.app/
+https://foodera-clone-react.netlify.app/
 
 gif:
 
