@@ -1,70 +1,104 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/HossamKamal-1/Foodera/main/src/images/logo.png" height="200"/>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+# Hi, I'm Hossam! 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  About Me
+I'm front-end
+developer with a passion for
+creating beautiful and
+responsive websites. I love
+collaborating with others to
+create innovative and impactful
+projects, and I'm always eager
+to learn new skills and explore
+new front-end frameworks and
+technologies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# FoodEra
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+FoodEra is a sleek and modern landing web application built using React, designed to showcase the essence of your culinary endeavors. With its intuitive design and seamless user experience, FoodEra provides a captivating platform to present your food-related business or project to the world.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Client(Front-End):** ReactJS and Bootstrap.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Checkout more dependencies at: 
 
-### `npm run eject`
+https://github.com/HossamKamal-1/Foodera/blob/main/package.json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
+- Responsive Design.
+- Light/Dark Mode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Prerequisites
+This project uses NPM as a package manager NodeJs Download Link: https://nodejs.org/en/download`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Run Locally
 
-## Learn More
+Clone the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/HossamKamal-1/Foodera.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Go to the project directory
 
-### Code Splitting
+```bash
+cd Foodera
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm i
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the server
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To deploy this project run
 
-### Deployment
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![fooderascreen1](https://github.com/HossamKamal-1/Foodera/assets/99696657/699ec475-be94-42b9-96b5-8c6b03e066e2)
+
+
+
+## Demo
+
+Netlify Demo:
+
+https://651ee8e2ae1bac00a1eb7442--willowy-hotteok-e2facf.netlify.app/
+
+gif:
+
+![ezgif-4-2bc8bd46f2](https://github.com/HossamKamal-1/Foodera/assets/99696657/d256a732-4a2a-43d0-960b-757dd279b1f9)
+
+
+
+## FAQ
+
+#### What dependencies were used to develop the project?
+
+Check the full dependencies here: 
+https://github.com/HossamKamal-1/Foodera/blob/main/package.json
+
